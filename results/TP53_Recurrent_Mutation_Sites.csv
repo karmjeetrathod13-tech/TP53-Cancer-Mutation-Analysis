@@ -1,0 +1,21 @@
+Position,Count,Number_of_Variants,Variants,Functional_Region
+273,19,4.0,"R273C, R273H, R273L, R273P",DNA-binding Domain
+175,18,1.0,R175H,DNA-binding Domain
+220,9,3.0,"Y220C, Y220H, Y220S",DNA-binding Domain
+342,9,3.0,"R342*, R342Efs*3, R342P",Tetramerization Domain
+193,9,3.0,"H193L, H193R, H193Y",DNA-binding Domain
+196,8,1.0,R196*,DNA-binding Domain
+248,7,3.0,"R248Q, R248Q X261_splice, R248W",DNA-binding Domain
+179,7,2.0,"H179R, H179Y",DNA-binding Domain
+331,6,1.0,Q331*,Tetramerization Domain
+213,6,1.0,R213*,DNA-binding Domain
+176,6,3.0,"C176*, C176F, C176S H178Pfs*69",DNA-binding Domain
+194,5,2.0,"L194P, L194R",DNA-binding Domain
+132,5,3.0,"K132E, K132N, K132T",DNA-binding Domain
+110,5,2.0,"R110Sfs*14, R110Vfs*13",DNA-binding Domain
+225,5,,,DNA-binding Domain
+242,5,2.0,"C242Afs*5, C242G",DNA-binding Domain
+195,5,1.0,I195T,DNA-binding Domain
+126,5,2.0,"Y126C, Y126N",DNA-binding Domain
+280,5,4.0,"R280*, R280K, R280S, R280T",DNA-binding Domain
+278,5,4.0,"P278A, P278L, P278S, P278T",DNA-binding Domain

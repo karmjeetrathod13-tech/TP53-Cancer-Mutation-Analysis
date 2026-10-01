@@ -1,0 +1,6 @@
+Gene,TP53_Mutated_Samples,CoMutated_Samples,Percentage_of_TP53_Mutated
+MDM2,328,2,0.61
+MDM4,328,1,0.3
+ATM,328,5,1.52
+CHEK2,328,2,0.61
+RPS6KA3,328,7,2.13

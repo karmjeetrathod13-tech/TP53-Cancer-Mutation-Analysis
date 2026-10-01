@@ -1,0 +1,9 @@
+Mutation,Position,Frequency,Functional_Region,Present_in_2XWR,Chains
+R175H,175,18,DNA-binding Domain,Yes,"A, B"
+H179R,179,6,DNA-binding Domain,Yes,"A, B"
+Y220C,220,7,DNA-binding Domain,Yes,"A, B"
+R248W,248,5,DNA-binding Domain,Yes,"A, B"
+R273H,273,11,DNA-binding Domain,Yes,"A, B"
+R273C,273,4,DNA-binding Domain,Yes,"A, B"
+R280K,280,1,DNA-binding Domain,Yes,"A, B"
+R282W,282,4,DNA-binding Domain,Yes,"A, B"

@@ -1,0 +1,76 @@
+discussion_text = """
+TP53 DISCUSSION AND LIMITATIONS
+================================
+
+Discussion
+----------
+
+The analysis identified TP53 mutations in 328 of the 952 samples
+analyzed. A total of 191 distinct mutation variants were observed,
+showing substantial variation in the reported TP53 alterations.
+
+Mutation positions were not evenly distributed across the protein.
+Several recurrent sites, particularly positions 273 and 175, were
+frequently affected. Many recurrent sites were located within the
+defined DNA-binding domain of TP53.
+
+The structural analysis further showed that selected recurrent
+mutation sites could be mapped onto the three-dimensional TP53
+structure. The selected sites R175H, H179R, Y220C, R248W, R273H,
+R273C, R280K and R282W are located within the DNA-binding region
+represented by the 2XWR structure.
+
+The combination of mutation-frequency analysis, positional
+analysis and structural mapping provides a multi-level view of
+TP53 alterations, from individual mutation variants to their
+location within the protein structure.
+
+Limitations
+-----------
+
+1. The analysis was based on 952 samples from a specific TCGA
+   breast cancer dataset. Therefore, the findings should not be
+   considered representative of all cancers or all patient
+   populations.
+
+2. The analysis used protein-level mutation information. Therefore,
+   nucleotide-level mutation patterns such as transition and
+   transversion frequencies were not analyzed.
+
+3. Some mutation entries contained complex descriptions involving
+   deletions, splice events or multiple changes. These entries
+   require careful interpretation and were not treated as simple
+   amino-acid substitutions.
+
+4. The functional-region analysis used simplified residue ranges
+   for TP53 domains. These ranges are intended for this project
+   and should not be interpreted as a complete annotation of all
+   TP53 functional features.
+
+5. Structural mapping shows the location of selected mutations on
+   the protein structure but does not by itself demonstrate changes
+   in protein stability, DNA binding, or biological activity.
+
+6. Co-mutation analysis identifies mutations occurring in the same
+   samples but does not establish a causal relationship between
+   the genes.
+
+Future Scope
+------------
+
+Future analysis could incorporate larger datasets from multiple
+cancer types, nucleotide-level mutation data, experimentally
+validated functional annotations, protein stability prediction,
+and molecular dynamics or molecular docking studies.
+
+Such analyses could provide additional information about how
+specific TP53 mutations may affect protein structure and function.
+"""
+
+output_file = "../results/TP53_Discussion_Limitations.txt"
+
+with open(output_file, "w") as file:
+    file.write(discussion_text.strip())
+
+print(discussion_text)
+print(f"\nSaved to: {output_file}")

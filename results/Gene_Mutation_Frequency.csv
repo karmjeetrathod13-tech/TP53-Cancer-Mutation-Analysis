@@ -1,0 +1,7 @@
+Gene,Mutated_Samples,Total_Samples,Mutation_Percentage
+TP53,328,952,34.45
+MDM2,4,952,0.42
+MDM4,3,952,0.32
+ATM,22,952,2.31
+CHEK2,6,952,0.63
+RPS6KA3,9,952,0.95

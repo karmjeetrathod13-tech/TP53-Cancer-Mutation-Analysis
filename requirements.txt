@@ -1,0 +1,4 @@
+pandas
+matplotlib
+biopython==1.88
+py3Dmol

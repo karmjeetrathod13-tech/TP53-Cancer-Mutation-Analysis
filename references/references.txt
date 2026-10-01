@@ -1,0 +1,43 @@
+TP53 CANCER MUTATION ANALYSIS
+=============================
+
+DATA SOURCES
+------------
+
+1. cBioPortal for Cancer Genomics
+   Used as the source of the TP53 mutation dataset.
+   Study: TCGA Breast Invasive Carcinoma (BRCA)
+   Dataset: brca_tcga_gdc
+
+2. National Center for Biotechnology Information (NCBI)
+   Used for reference information on the human TP53 gene and
+   reference sequences.
+
+   TP53 RefSeq mRNA: NM_000546.6
+   TP53 RefSeq protein: NP_000537.3
+
+3. UniProt
+   Human TP53 protein information.
+
+   UniProt accession: P04637
+
+4. RCSB Protein Data Bank (PDB)
+   Used for three-dimensional structural analysis of TP53.
+
+   Structure: 2XWR
+   Protein: Human TP53 DNA-binding domain
+
+5. Biopython
+   Used for parsing and analyzing the TP53 structural data.
+
+6. Python
+   Used for data processing, statistical calculations and
+   visualization.
+
+IMPORTANT NOTE
+--------------
+
+The mutation dataset represents a specific TCGA breast cancer
+study and contains 952 samples. Therefore, all mutation
+frequencies and distributions reported in this project refer
+specifically to this analyzed dataset.
